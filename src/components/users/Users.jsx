@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import "../users/Users.scss";
 
-const Users = () => {
+const User = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -34,4 +34,4 @@ const Users = () => {
   );
 };
 
-export default Users;
+export default User;
